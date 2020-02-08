@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification renders a notification list 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AykKF bTAboA"
+    data-testid="notification-wrapper"
+  >
+    <div
+      class="sc-AykKG dchsrd"
+    >
+      <button
+        class="sc-AykKE sc-AykKH gMOKrM"
+        data-testid="dismiss-button"
+      >
+        <svg
+          aria-hidden="true"
+          class="octicon"
+          height="16"
+          role="img"
+          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          viewBox="0 0 12 16"
+          width="12"
+        >
+          <path
+            d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+      mock-content
+    </div>
+    <div
+      class="sc-AykKG dchsrd"
+    >
+      <button
+        class="sc-AykKE sc-AykKH gMOKrM"
+        data-testid="dismiss-button"
+      >
+        <svg
+          aria-hidden="true"
+          class="octicon"
+          height="16"
+          role="img"
+          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          viewBox="0 0 12 16"
+          width="12"
+        >
+          <path
+            d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+      mock-content
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Notification renders an empty notification list 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AykKF bTAboA"
+    data-testid="notification-wrapper"
+  />
+</DocumentFragment>
+`;
+
+exports[`NotificationDismissButton renders 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-AykKE sc-AykKH gMOKrM"
+    data-testid="dismiss-button"
+  >
+    <svg
+      aria-hidden="true"
+      class="octicon"
+      height="16"
+      role="img"
+      style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+      viewBox="0 0 12 16"
+      width="12"
+    >
+      <path
+        d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`NotificationOverlay renders 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AykKG dchsrd"
+  >
+    <button
+      class="sc-AykKE sc-AykKH gMOKrM"
+      data-testid="dismiss-button"
+    >
+      <svg
+        aria-hidden="true"
+        class="octicon"
+        height="16"
+        role="img"
+        style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+        viewBox="0 0 12 16"
+        width="12"
+      >
+        <path
+          d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+    mock-content
+  </div>
+</DocumentFragment>
+`;
+
+exports[`NotificationOverlay renders a warning 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AykKG goAyQy"
+  >
+    <button
+      class="sc-AykKE sc-AykKH gMOKrM"
+      data-testid="dismiss-button"
+    >
+      <svg
+        aria-hidden="true"
+        class="octicon"
+        height="16"
+        role="img"
+        style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+        viewBox="0 0 12 16"
+        width="12"
+      >
+        <path
+          d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+    mock-content
+  </div>
+</DocumentFragment>
+`;
+
+exports[`NotificationOverlay renders an error 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AykKG eWROoU"
+  >
+    <button
+      class="sc-AykKE sc-AykKH gMOKrM"
+      data-testid="dismiss-button"
+    >
+      <svg
+        aria-hidden="true"
+        class="octicon"
+        height="16"
+        role="img"
+        style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+        viewBox="0 0 12 16"
+        width="12"
+      >
+        <path
+          d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+    mock-content
+  </div>
+</DocumentFragment>
+`;
